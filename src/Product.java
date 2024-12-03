@@ -3,17 +3,17 @@ public class Product {
     //конструктором с двумя параметрами, с помощью которого можно
     //задавать их значения, и двумя геттерами для этих полей.
 private final String name;
-private final double price;
+private final int price;
     //Создайте также в этом классе два статических поля: int count и int
     //totalPrice — и пропишите увеличение их значений в конструкторе.
     //
     public static int count = 0;
     public static int totalPrice = 0;
 
-    public Product(String name, double price) {
+    public Product(String name, int price) {
         this.name = name;
         this.price = price;
-        count = count +1;
+        count = count + 1;
         totalPrice = totalPrice + price;
     }
 
@@ -21,8 +21,16 @@ private final double price;
         return name;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
+    //Создайте в классе статический метод, который будет возвращать общее
+    //количество созданных продуктов:
+    public static int getCount() { return count; }
+    public static double getAveragePrice() {
+        return (double) totalPrice/count;
+    }
+
+
 
 }
