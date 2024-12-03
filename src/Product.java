@@ -7,8 +7,8 @@ private final int price;
     //Создайте также в этом классе два статических поля: int count и int
     //totalPrice — и пропишите увеличение их значений в конструкторе.
     //
-    public static int count = 0;
-    public static int totalPrice = 0;
+    private static int count;
+    private static int totalPrice;
 
     public Product(String name, int price) {
         this.name = name;
@@ -27,6 +27,7 @@ private final int price;
     //Создайте в классе статический метод, который будет возвращать общее
     //количество созданных продуктов:
     public static int getCount() { return count; }
+    public static int getTotalPrice() { return totalPrice; }
     public static double getAveragePrice() {
         return (double) totalPrice/count;
     }

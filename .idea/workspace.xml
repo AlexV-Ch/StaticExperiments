@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a90aa859-f0af-409d-98fd-305806e48dac" name="Changes" comment="Задание 6.3.1 - старт -&gt; GitHub">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a90aa859-f0af-409d-98fd-305806e48dac" name="Changes" comment="Задание 6.3.1 - выполнено ?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
@@ -66,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733231142276</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Задание 6.3.1 - выполнено ?">
+      <created>1733244980181</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733244980182</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -83,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Задание 6.3.1 - старт -&gt; GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 6.3.1 - старт -&gt; GitHub" />
+    <MESSAGE value="Задание 6.3.1 - выполнено ?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 6.3.1 - выполнено ?" />
   </component>
 </project>
