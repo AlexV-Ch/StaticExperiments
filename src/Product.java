@@ -6,7 +6,7 @@ private final String name;
 private final double price;
     //Создайте также в этом классе два статических поля: int count и int
     //totalPrice — и пропишите увеличение их значений в конструкторе.
-
+    //
     public static int count = 0;
     public static int totalPrice = 0;
 
