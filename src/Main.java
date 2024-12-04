@@ -2,6 +2,14 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        //TODO: Задание 6.5.1
+        /**Напишите в методе main класса Main код, который будет проверять
+        работу метода calculate: вызывать его с разными типами операций.*/
+        ArithmeticCalculator calcul = new ArithmeticCalculator(56, 12);
+        System.out.println("Сложение " + calcul.calculate(Operation.ADD) );
+        System.out.println("Вычитание " + calcul.calculate(Operation.SUBTRACT));
+        System.out.println("Умножение " + calcul.calculate(Operation.MULTIPLY));
+
 
         //TODO: Задание 6.3 
         /**System.out.printf("Hello and welcome!");
