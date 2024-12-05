@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Объем двигателя    - " + car_1.getEngine().getVolume());
         System.out.println("Мощность двигателя - " + car_1.getEngine().getPower());
 
+
         //TODO: Задание 6.5.1
         /**Напишите в методе main класса Main код, который будет проверять
         работу метода calculate: вызывать его с разными типами операций.*/
